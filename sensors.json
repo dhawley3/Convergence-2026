@@ -1,0 +1,41 @@
+{
+  "buildings": [
+    {
+      "building_id": "EngineeringHall",
+      "zones": [
+        {
+          "zone_id": "LectureWing",
+          "sensors": [
+            {"sensor_id": "EH-LW-OCC-1", "occupied": true},
+            {"sensor_id": "EH-LW-OCC-2", "occupied": false}
+          ]
+        },
+        {
+          "zone_id": "LabCorridor",
+          "sensors": [
+            {"sensor_id": "EH-LC-OCC-1", "occupied": false},
+            {"sensor_id": "EH-LC-OCC-2", "occupied": false}
+          ]
+        }
+      ]
+    },
+    {
+      "building_id": "ScienceCenter",
+      "zones": [
+        {
+          "zone_id": "PhysicsHall",
+          "sensors": [
+            {"sensor_id": "SC-PH-OCC-1", "occupied": false},
+            {"sensor_id": "SC-PH-OCC-2", "occupied": false}
+          ]
+        },
+        {
+          "zone_id": "ChemRooms",
+          "sensors": [
+            {"sensor_id": "SC-CR-OCC-1", "occupied": true}
+          ]
+        }
+      ]
+    }
+  ]
+}
