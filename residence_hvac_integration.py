@@ -52,8 +52,8 @@ def control_buildings(buildings, registrar, bas, check_interval=60):
 
 # Initialize systems
 buildings = ["Building_A", "Building_B"]
-registrar = OccupancySystem()
-bas = DormAutomationSystem()
+occupancy = OccupancySystem()
+das = DormAutomationSystem()
 
 # For testing, you might run:
-# control_buildings(buildings, registrar, bas, check_interval=10)
+# control_buildings(buildings, occupancy, das, check_interval=10)
