@@ -20,7 +20,7 @@ This project provides a Python HVAC control loop that turns HVAC off when sensor
 ## Run
 
 ```bash
-cd /Users/drewhawley/academic-energy-site
+cd /Users/YOUR_USERNAME/academic-energy-site
 python3 hvac_system.py --sensor-file sensors.json --iterations 1 --off-delay-seconds 0
 ```
 
@@ -33,14 +33,14 @@ Update `occupied` values inside `sensors.json` and rerun the command to simulate
 ## Run test cases in terminal
 
 ```bash
-cd /Users/drewhawley/academic-energy-site
+cd /Users/YOUR_USERNAME/academic-energy-site
 python3 -m unittest discover -s tests -p "test_*.py" -v
 ```
 
 ## Display test cases on localhost
 
 ```bash
-cd /Users/drewhawley/academic-energy-site
+cd /Users/YOUR_USERNAME/academic-energy-site
 python3 test_dashboard.py --port 8080
 ```
 
@@ -49,7 +49,7 @@ Then open `http://127.0.0.1:8080` in your browser. Refreshing the page reruns th
 ## Run academic building HVAC localhost
 
 ```bash
-cd /Users/drewhawley/academic-energy-site
+cd /Users/YOUR_USERNAME/academic-energy-site
 python3 academic_hvac_localhost.py --port 8090
 ```
 
